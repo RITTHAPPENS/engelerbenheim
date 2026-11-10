@@ -25,6 +25,6 @@ Einfach `index.html` im Browser öffnen oder `npx serve .` im Projektordner.
 
 - Speisekarte als PDF unter `assets/speisekarte.pdf` ablegen
 - Link zum Online-Reservierungstool
-- Impressum und Datenschutzerklärung (inkl. Google Fonts und Google Maps)
+- Datenschutzerklärung (inkl. Google Fonts und Google Maps)
 - Bewertungen: Google-Rezensionen per Trustindex-Widget einbinden
 - Bilder in höherer Auflösung, eigene Fotos statt Stockbilder bei "Regionale Qualität"
