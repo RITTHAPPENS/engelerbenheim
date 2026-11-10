@@ -13,17 +13,19 @@ assets/js/          Navigation, Scroll-Reveal, Karte, Öffnungszeiten
 assets/img/         Bilder (WebP), Logo, Favicon, OG-Bild
 ```
 
+## Hinweis zur Umsetzung
+
+Dieses Repo ist die Design-Referenz. Live geht die Seite als WordPress/Elementor-Umsetzung bei Strato unter engelwiesbaden.de.
+
 ## Lokal ansehen
 
 Einfach `index.html` im Browser öffnen oder `npx serve .` im Projektordner.
 
 ## Offene Punkte (TODO im Code markiert)
 
-- Link zur Speisekarte (PDF oder Unterseite)
+- Speisekarte als PDF unter `assets/speisekarte.pdf` ablegen
 - Link zum Online-Reservierungstool
 - Instagram- und Facebook-URL
-- E-Mail-Adresse bestätigen (aktuell info@engel-erbenheim.de)
-- Domain prüfen (canonical, OG und Schema.org nutzen engel-erbenheim.de)
 - Impressum und Datenschutzerklärung (inkl. Google Fonts und Google Maps)
-- Bewertungen gegen echte Google-Rezensionen tauschen
+- Bewertungen: Google-Rezensionen per Trustindex-Widget einbinden
 - Bilder in höherer Auflösung, eigene Fotos statt Stockbilder bei "Regionale Qualität"
