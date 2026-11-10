@@ -6,10 +6,11 @@ Statische Website (HTML, CSS, JS) für den Traditionsgasthof Der Engel in Wiesba
 
 ```
 index.html          Startseite (Onepager)
-impressum.html      Impressum (Platzhalter)
-datenschutz.html    Datenschutzerklärung (Platzhalter)
+impressum.html      Impressum
+datenschutz.html    Datenschutzerklärung
 assets/css/         Stylesheet
 assets/js/          Navigation, Scroll-Reveal, Karte, Öffnungszeiten
+assets/fonts/       Schriften (lokal gehostet, DSGVO)
 assets/img/         Bilder (WebP), Logo, Favicon, OG-Bild
 ```
 
@@ -25,6 +26,6 @@ Einfach `index.html` im Browser öffnen oder `npx serve .` im Projektordner.
 
 - Speisekarte als PDF unter `assets/speisekarte.pdf` ablegen
 - Link zum Online-Reservierungstool
-- Datenschutzerklärung (inkl. Google Fonts und Google Maps)
+- Datenschutz: Hoster-Angabe von "Google LLC" auf Strato ändern
 - Bewertungen: Google-Rezensionen per Trustindex-Widget einbinden
 - Bilder in höherer Auflösung, eigene Fotos statt Stockbilder bei "Regionale Qualität"
