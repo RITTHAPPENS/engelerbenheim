@@ -1,0 +1,14 @@
+{
+  "_anleitung": "Neue Meldung oben einfügen. 'bis' ist optional (JJJJ-MM-TT): danach wird die Meldung automatisch ausgeblendet. Ist keine Meldung aktiv, verschwindet der ganze Abschnitt.",
+  "meldungen": [
+    {
+      "titel": "Wichtiger Hinweis",
+      "datum": "2026-11-10",
+      "bis": "",
+      "text": [
+        "Bitte beachten Sie, dass Schlemmerblock-Gutscheine aktuell bei uns im Lokal nicht akzeptiert werden.",
+        "Wir bitten um Ihr Verständnis und freuen uns, Sie dennoch herzlich bei uns im Engel in Erbenheim begrüßen zu dürfen."
+      ]
+    }
+  ]
+}

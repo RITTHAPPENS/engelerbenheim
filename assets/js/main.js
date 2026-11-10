@@ -64,6 +64,28 @@
     });
   }
 
+  /* Aktuelles aus assets/data/aktuelles.json laden */
+  const list = document.querySelector('[data-aktuelles]');
+  if (list && 'fetch' in window) {
+    fetch('assets/data/aktuelles.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then(({ meldungen = [] }) => {
+        const heute = new Date().toISOString().slice(0, 10);
+        const aktiv = meldungen.filter((m) => !m.bis || m.bis >= heute);
+        if (!aktiv.length) { list.closest('section').hidden = true; return; }
+        const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+        const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' });
+        list.innerHTML = aktiv.map((m) => `
+          <article class="aktuelles-box is-visible">
+            ${m.datum ? `<time datetime="${esc(m.datum)}">${fmt(m.datum)}</time>` : ''}
+            <h3>${esc(m.titel || '')}</h3>
+            ${(Array.isArray(m.text) ? m.text : [m.text]).map((p) => `<p>${esc(p)}</p>`).join('')}
+            <p class="signature">Ihr Engel-Team</p>
+          </article>`).join('');
+      })
+      .catch(() => { /* Fallback-Inhalt im HTML bleibt stehen */ });
+  }
+
   /* Jahr im Footer */
   const y = document.querySelector('[data-year]');
   if (y) y.textContent = new Date().getFullYear();
