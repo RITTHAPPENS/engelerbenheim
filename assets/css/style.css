@@ -134,9 +134,9 @@ section{padding:7rem 2rem}
 .aktuelles-box{position:relative;background:var(--white-warm);border:1px solid var(--cream-dark);border-left:3px solid var(--gold);padding:2.4rem 2.8rem;max-width:680px;margin:1rem auto 0;text-align:left;transition:box-shadow .5s var(--ease),transform .5s var(--ease)}
 .aktuelles-box:hover{box-shadow:0 18px 40px -22px rgba(42,31,24,.35);transform:translateY(-2px)}
 .aktuelles-box h3{font-family:var(--font-display);font-size:1.25rem;color:var(--brown-mid);margin-bottom:.9rem;font-weight:600}
-.aktuelles-box p{line-height:1.8;font-size:.98rem}
+.aktuelles-box p{line-height:1.8;font-size:1rem}
 .aktuelles-box p+p{margin-top:.7rem}
-.aktuelles-box .signature{margin-top:1.2rem;font-style:italic;color:var(--brown-light);font-family:var(--font-accent);font-size:1.15rem}
+.aktuelles-box .signature{margin-top:1.2rem;font-style:italic;color:var(--brown-light)}
 
 /* ===== Speisekarte ===== */
 .speisekarte{background:var(--brown-dark);color:var(--cream);position:relative;overflow:hidden}
@@ -146,7 +146,7 @@ section{padding:7rem 2rem}
 .media-frame img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
 .media-frame:hover img{transform:scale(1.04)}
 .speisekarte .media-frame{aspect-ratio:5/6;border:1px solid rgba(212,168,75,.15)}
-.speisekarte-text p{font-size:1.02rem;line-height:1.9;color:var(--cream-dark);margin-bottom:1.3rem;max-width:52ch}
+.speisekarte-text p{font-size:1rem;line-height:1.9;color:var(--cream-dark);margin-bottom:1.3rem;max-width:52ch}
 .speisekarte-text .btn{margin-top:.8rem}
 
 /* ===== Instagram ===== */
@@ -164,7 +164,6 @@ section{padding:7rem 2rem}
 .ueber-uns{background:var(--white-warm)}
 .ueber-uns .split{grid-template-columns:1.15fr 1fr}
 .ueber-text p{font-size:1rem;line-height:1.9;margin-bottom:1.15rem;max-width:58ch}
-.ueber-text p:first-of-type{font-family:var(--font-accent);font-size:1.3rem;line-height:1.6;color:var(--text-dark)}
 .ueber-image{position:relative}
 .ueber-image .media-frame{aspect-ratio:3/2;border:1px solid var(--cream-dark);box-shadow:0 30px 60px -30px rgba(42,31,24,.45)}
 .ueber-year{position:absolute;bottom:-22px;left:-22px;background:var(--brown-dark);color:var(--gold);padding:1.1rem 1.6rem;font-family:var(--font-display);font-size:1.35rem;font-weight:600;letter-spacing:.04em;border:1px solid rgba(212,168,75,.25)}
@@ -173,7 +172,7 @@ section{padding:7rem 2rem}
 /* ===== Regional ===== */
 .regional{background:var(--cream)}
 .regional-intro{max-width:640px;margin:0 auto 3.5rem;text-align:center}
-.regional-intro p{font-size:1.02rem;line-height:1.8}
+.regional-intro p{font-size:1rem;line-height:1.8}
 .regional-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:1.5rem}
 .regional-card{position:relative;overflow:hidden;height:380px;margin:0}
 .regional-card img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
@@ -199,7 +198,7 @@ section{padding:7rem 2rem}
 /* ===== Reservation ===== */
 .reservation{background:var(--white-warm);text-align:center}
 .reservation .container{max-width:680px}
-.reservation p{font-size:1.05rem;line-height:1.8;margin-bottom:2.2rem}
+.reservation p{font-size:1rem;line-height:1.8;margin-bottom:2.2rem}
 .res-methods{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
 
 /* ===== Info ===== */
@@ -210,7 +209,7 @@ section{padding:7rem 2rem}
 .hours-table{width:100%;border-collapse:collapse}
 .hours-table tr{border-bottom:1px solid var(--cream-dark)}
 .hours-table tr:last-child{border-bottom:0}
-.hours-table th,.hours-table td{padding:.85rem .6rem;font-size:.97rem;text-align:left;font-weight:400}
+.hours-table th,.hours-table td{padding:.85rem .6rem;font-size:1rem;text-align:left;font-weight:400}
 .hours-table th{font-weight:500;color:var(--text-dark)}
 .hours-table td{text-align:right;color:var(--text-body);font-variant-numeric:tabular-nums}
 .hours-table .closed{color:var(--brown-light);font-style:italic}
@@ -224,7 +223,7 @@ section{padding:7rem 2rem}
 .map-consent a{color:var(--brown-mid)}
 .map-consent .btn{padding:.7rem 1.4rem;font-size:.88rem}
 .address-info{margin-top:1.5rem;display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap}
-.address-info p{font-size:.97rem;line-height:1.8}
+.address-info p{font-size:1rem;line-height:1.8}
 .address-info a.route{font-family:var(--font-accent);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:.9rem;color:var(--brown-mid);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px;transition:color .3s}
 .address-info a.route:hover{color:var(--brown-light)}
 
