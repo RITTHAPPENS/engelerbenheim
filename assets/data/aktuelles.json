@@ -2,6 +2,15 @@
   "_anleitung": "Neue Meldung oben einfügen. 'bis' ist optional (JJJJ-MM-TT): danach wird die Meldung automatisch ausgeblendet. Ist keine Meldung aktiv, verschwindet der ganze Abschnitt.",
   "meldungen": [
     {
+      "titel": "Gänsezeit & Wintergenüsse",
+      "datum": "2026-11-11",
+      "bis": "2027-01-31",
+      "text": [
+        "Ab sofort gibt es bei uns wieder ofenfrische Gänsebrust, knusprige Gänsekeule und Wildragout, serviert mit Kartoffelklößen, Rotkohl und Gänsejus.",
+        "Die ganze Gans mit Apfel-Orangen-Füllung gibt es auf Vorbestellung. Alle Gerichte finden Sie in unserer Gänsezeit-Karte."
+      ]
+    },
+    {
       "titel": "Wichtiger Hinweis",
       "datum": "2026-11-10",
       "bis": "",

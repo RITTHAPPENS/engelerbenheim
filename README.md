@@ -18,6 +18,12 @@ assets/img/         Bilder (WebP), Logo, Favicon, OG-Bild
 
 Dieses Repo ist die Design-Referenz. Live geht die Seite als WordPress/Elementor-Umsetzung bei Strato unter engelwiesbaden.de.
 
+## Speisekarten und Reservierung
+
+- Speisekarte: `assets/speisekarten/speisekarte.pdf`
+- Saisonkarte Gänsezeit: `assets/speisekarten/gaensezeit-wintergenuesse.pdf` (nach der Saison Button entfernen oder Datei tauschen)
+- Online-Reservierung über dish: https://reservation.dish.co/widget/hydra-119463cc-df44-47fb-be42-47d680a5437c
+
 ## Aktuelles bearbeiten
 
 **Prototyp:** Meldungen stehen in `assets/data/aktuelles.json` (Titel, Datum, Text, optional Ablaufdatum `bis`). Abgelaufene Meldungen werden automatisch ausgeblendet; ist keine aktiv, verschwindet der Abschnitt.
@@ -30,7 +36,5 @@ Dieses Repo ist die Design-Referenz. Live geht die Seite als WordPress/Elementor
 
 ## Offene Punkte (TODO im Code markiert)
 
-- Speisekarte als PDF unter `assets/speisekarte.pdf` ablegen
-- Link zum Online-Reservierungstool
 - Bewertungen: Google-Rezensionen per Trustindex-Widget einbinden
 - Bilder in höherer Auflösung, eigene Fotos statt Stockbilder bei "Regionale Qualität"
